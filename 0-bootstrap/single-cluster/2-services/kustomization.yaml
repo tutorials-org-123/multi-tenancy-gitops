@@ -19,8 +19,8 @@ resources:
 
 ## Cloud Pak for Business Automation
 #- argocd/operators/ibm-cp4a-operator.yaml
-#- argocd/operators/ibm-db2u-operator.yaml
-#- argocd/operators/ibm-process-mining-operator.yaml
+- argocd/operators/ibm-db2u-operator.yaml
+- argocd/operators/ibm-process-mining-operator.yaml
 #- argocd/instances/ibm-process-mining-instance.yaml
 
 ## Cloud Pak for Data
@@ -38,15 +38,15 @@ resources:
 #- argocd/instances/ibm-cp4sthreatmanagements-instance.yaml
 
 ## IBM Foundational Services / Common Services
-#- argocd/operators/ibm-foundations.yaml
+- argocd/operators/ibm-foundations.yaml
 #- argocd/instances/ibm-foundational-services-instance.yaml
-#- argocd/operators/ibm-automation-foundation-core-operator.yaml
+- argocd/operators/ibm-automation-foundation-core-operator.yaml
 #- argocd/operators/ibm-automation-foundation-operator.yaml
 #- argocd/operators/ibm-license-service-operator.yaml
 #- argocd/instances/ibm-license-service-instance.yaml
 
 ## IBM Catalogs
-#- argocd/operators/ibm-catalogs.yaml
+- argocd/operators/ibm-catalogs.yaml
 
 # B2BI
 #- argocd/instances/ibm-sfg-db2.yaml
